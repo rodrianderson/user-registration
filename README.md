@@ -76,7 +76,7 @@ ADMIN -> Admin role for managing partners (registering new partners).
 
 YAML ENDPOINTS -> (https://github.com/rodrianderson/user-registration/blob/main/user-registration-end-points)
 
-Exemplo:
+## Exemplo:
 
 ## User:
 ```json
