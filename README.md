@@ -65,8 +65,6 @@ PATCH /user/deactivate/{userId} - Deactivate user
 
 GET /user/id/{userId} - Get user by userId
 
-[Yaml with endPoint][https://github.com/rodrianderson/user-registration/blob/main/user-registration-end-points]
-
 ## Authentication
 The API uses Spring Security for authentication control. The following roles are available:
 
@@ -75,6 +73,8 @@ USER -> Standard user role for logged-in users.
 ADMIN -> Admin role for managing partners (registering new partners).
 ```
 To access protected endpoints as an ADMIN user, provide the appropriate authentication credentials in the request header.
+
+[Yaml with endPoint][https://github.com/rodrianderson/user-registration/blob/main/user-registration-end-points]
 
 
 
