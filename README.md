@@ -78,7 +78,7 @@ YAML ENDPOINTS -> (https://github.com/rodrianderson/user-registration/blob/main/
 
 Exemplo:
 
-Object user:
+## User:
 ```json
 {
 	"id": 1,
@@ -101,8 +101,7 @@ Object user:
 	}
 }
 ```
-Berear Token add in Auth Types:
-EndPoint: Login after Register
+## Berear Token add in Auth Types:
 ```json
 {
 	"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmRlcnNvbiIsImlzcyI6ImF1dGgtYXBpIiwiZXhwIjoxNzA1ODgzNDI4fQ.pJkfEWX6tN3pRmPTMk_NPDZBWyNW8zC24bpJJ_vIPiQ"
