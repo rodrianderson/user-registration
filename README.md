@@ -65,6 +65,14 @@ PATCH /user/deactivate/{userId} - Deactivate user
 
 GET /user/id/{userId} - Get user by userId
 
+```yaml
+# Seu conteúdo YAML aqui
+chave1: valor1
+chave2:
+  - item1
+  - item2
+chave3: true
+
 ```
 
 ## Authentication
