@@ -65,7 +65,7 @@ PATCH /user/deactivate/{userId} - Deactivate user
 
 GET /user/id/{userId} - Get user by userId
 
-[Yaml with endPoint](https://www.mysql.com/)
+[Yaml with endPoint](https://github.com/rodrianderson/user-registration/blob/main/user-registration-end-points)
 
 ## Authentication
 The API uses Spring Security for authentication control. The following roles are available:
