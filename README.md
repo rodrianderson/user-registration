@@ -76,6 +76,38 @@ ADMIN -> Admin role for managing partners (registering new partners).
 
 YAML ENDPOINTS -> (https://github.com/rodrianderson/user-registration/blob/main/user-registration-end-points)
 
+Exemplo:
+
+Object user:
+```json
+{
+	"id": 1,
+	"cpf": "12345678901",
+	"name": "Frodo Baggins",
+	"dateBirth": "1990-05-19",
+	"address": {
+		"street": "Bag End",
+		"number": 123,
+		"complement": "hobbit hole",
+		"neighborhood": "the Shire",
+		"city": "Hobbiton",
+		"state": "Westron",
+		"zipCode": "12345"
+	},
+	"status": "ATIVO",
+	"userInfo": {
+		"userRecord": "CREATE",
+		"registerDate": "2024-01-21T17:59:58.370+00:00"
+	}
+}
+```
+Berear Token add in Auth Types:
+EndPoint: Login after Register
+```json
+{
+	"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmRlcnNvbiIsImlzcyI6ImF1dGgtYXBpIiwiZXhwIjoxNzA1ODgzNDI4fQ.pJkfEWX6tN3pRmPTMk_NPDZBWyNW8zC24bpJJ_vIPiQ"
+}
+
 
 
 
