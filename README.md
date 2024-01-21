@@ -30,6 +30,8 @@ git clone [https://github.com/rodrianderson/user-registration]
 
 3. Install [Mysql](https://www.mysql.com/)
 
+4. Create database: dbcadastro
+
 ## Usage
 
 1. Start the application with Maven
