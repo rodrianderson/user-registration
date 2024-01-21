@@ -67,6 +67,7 @@ GET /user/id/{userId} - Get user by userId
 
 ## Authentication
 The API uses Spring Security for authentication control. The following roles are available:
+To access protected endpoints as an ADMIN user, provide the appropriate authentication credentials in the request header.
 
 ```
 USER -> Standard user role for logged-in users.
@@ -76,7 +77,6 @@ ADMIN -> Admin role for managing partners (registering new partners).
 YAML ENDPOINTS -> (https://github.com/rodrianderson/user-registration/blob/main/user-registration-end-points)
 
 ```
-To access protected endpoints as an ADMIN user, provide the appropriate authentication credentials in the request header.
 
 
 
