@@ -73,7 +73,7 @@ USER -> Standard user role for logged-in users.
 
 ADMIN -> Admin role for managing partners (registering new partners).
 
-Yaml with endpoint -> (https://github.com/rodrianderson/user-registration/blob/main/user-registration-end-points)
+YAML ENDPOINTS -> (https://github.com/rodrianderson/user-registration/blob/main/user-registration-end-points)
 
 ```
 To access protected endpoints as an ADMIN user, provide the appropriate authentication credentials in the request header.
