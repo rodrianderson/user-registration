@@ -76,7 +76,7 @@ USER -> Standard user role for logged-in users.
 
 ADMIN -> Admin role for managing partners (registering new partners).
 
-YAML ENDPOINTS -> (https://github.com/rodrianderson/user-registration/blob/main/user-registration-end-points)
+YAML ENDPOINTS -> (https://github.com/rodrianderson/user-registration/blob/main/user-registration.yaml.postman_collection.json)
 
 ## Exemplo:
 
